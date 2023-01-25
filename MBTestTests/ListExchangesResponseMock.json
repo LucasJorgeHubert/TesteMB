@@ -1,0 +1,53 @@
+[
+    {
+        "exchange_id": "BINANCE",
+        "website": "https://www.binance.com/",
+        "name": "Binance",
+        "data_start": "2017-07-14",
+        "data_end": "2023-01-25",
+        "data_quote_start": "2017-12-18T21:50:58.3910192Z",
+        "data_quote_end": "2023-01-25T00:00:00.0000000Z",
+        "data_orderbook_start": "2017-12-18T21:50:58.3910192Z",
+        "data_orderbook_end": "2023-01-25T00:00:00.0000000Z",
+        "data_trade_start": "2017-07-14T04:00:00.3760000Z",
+        "data_trade_end": "2023-01-25T00:00:00.0000000Z",
+        "data_symbols_count": 2145,
+        "volume_1hrs_usd": 931199666.17,
+        "volume_1day_usd": 19466987552.80,
+        "volume_1mth_usd": 431397308210.34
+    },
+    {
+        "exchange_id": "KRAKEN",
+        "website": "https://www.kraken.com/",
+        "name": "Kraken",
+        "data_start": "2013-10-22",
+        "data_end": "2023-01-25",
+        "data_quote_start": "2014-07-31T13:05:46.0000000Z",
+        "data_quote_end": "2023-01-25T00:00:00.0000000Z",
+        "data_orderbook_start": "2014-07-31T13:05:46.0000000Z",
+        "data_orderbook_end": "2023-01-25T00:00:00.0000000Z",
+        "data_trade_start": "2013-10-22T23:09:46.8630000Z",
+        "data_trade_end": "2023-01-25T00:00:00.0000000Z",
+        "data_symbols_count": 786,
+        "volume_1hrs_usd": 262902665.45,
+        "volume_1day_usd": 7228757737.34,
+        "volume_1mth_usd": 351877183814.14
+    },
+    {
+        "exchange_id": "COINBASE",
+        "website": "https://pro.coinbase.com/",
+        "name": "Coinbase Pro (GDAX)",
+        "data_start": "2015-01-14",
+        "data_end": "2023-01-25",
+        "data_quote_start": "2015-05-17T00:51:32.6370000Z",
+        "data_quote_end": "2023-01-25T00:00:00.0000000Z",
+        "data_orderbook_start": "2015-05-17T00:51:32.6370000Z",
+        "data_orderbook_end": "2023-01-25T00:00:00.0000000Z",
+        "data_trade_start": "2015-01-14T16:07:05.0000000Z",
+        "data_trade_end": "2023-01-25T00:00:00.0000000Z",
+        "data_symbols_count": 647,
+        "volume_1hrs_usd": 87713192.33,
+        "volume_1day_usd": 2332955212.63,
+        "volume_1mth_usd": 53969864268.61
+    }
+]

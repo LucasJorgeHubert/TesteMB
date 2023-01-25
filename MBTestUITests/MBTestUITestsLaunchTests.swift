@@ -9,10 +9,15 @@ import XCTest
 
 class MBTestUITestsLaunchTests: XCTestCase {
 
-    override class var runsForEachTargetApplicationUIConfiguration: Bool {
-        true
-    }
+    var app: XCUIApplication!
 
+    override func setUp() {
+        continueAfterFailure = false
+        app = XCUIApplication()
+        app.launchArguments = ["testing"]
+        app.launch()
+    }
+    
     override func setUpWithError() throws {
         continueAfterFailure = false
     }
@@ -28,5 +33,9 @@ class MBTestUITestsLaunchTests: XCTestCase {
         attachment.name = "Launch Screen"
         attachment.lifetime = .keepAlways
         add(attachment)
+    }
+    
+    func testInitialStateIsCorrect() {
+        XCTAssertTrue(app.staticTexts["Exchanges CoinAPI.io"].exists)
     }
 }
